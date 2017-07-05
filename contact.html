@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Щенки Золотистого Ретривера</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		
+		<!-- CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Arvo:400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body>
+	
+		
+		<!-- WRAPPER -->
+		<div class="wrapper">
+		
+			<!-- HEADER -->
+			<header class="cf">
+				<div id="logo"><a href="index.html"><img src="img/logo.png"/></a></div>
+				
+				<!-- social-bar -->
+				<ul id="social-bar" class="cf">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+					</span>
+				</ul>
+
+				<ul id="telephone" class="cf">
+					&nbsp;8 (843) 226-76-26
+				</ul>
+				<!-- ENDS social-bar -->
+				
+			</header>
+			<!-- ENDS HEADER -->
+			
+			<!-- NAV -->
+			<nav class="cf">
+				<ul id="nav" class="sf-menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="puppies.html">Про каждого</a></li>
+					<li><a href="gallery.html">Галерея</a>
+					<ul>
+							<li><a href="gallery2.html">19 дней</a></li>		
+							<li><a href="gallery1.html">13 дней</a></li>
+					</ul>
+					</li>
+					<li class="current-menu-item"><a href="contact.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<!-- ENDS NAV -->
+			
+			
+			<!-- MAIN -->
+			<div id="main" class="cf">
+				
+				<!-- page-content -->
+				<div class="page-content">
+					
+					<!-- entry-content -->	
+		        	<div class="entry-content cf">
+		        		
+						<h2  class="heading">Контакты</h2>
+						<div id="map"></div>
+					
+						<p>
+							<i class="fa fa-home"><strong>Адрес</strong><br/></i>
+							<br/>
+							г. Казань, Советский район<br/>
+							
+					  		<i class="fa fa-phone"><strong>Телефон</strong><br/></i>
+					  		<br/>
+							<a href="tel:88432267626"> 8 (843) 226-76-26 </a><br/>
+						</p>
+					</div>
+					<!-- ENDS entry-content -->
+				</div><!-- ENDS page-content -->				
+			</div>
+			<!-- ENDS MAIN -->
+		</div>
+		<!-- ENDS WRAPPER -->
+		
+		<!-- JS -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+		<script src="js/custom.js"></script>
+		
+		<!-- gmaps -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/gmaps.js"></script>
+		<!-- ENDS gmaps -->
+		
+		<!-- superfish -->
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<script src="js/css3-mediaqueries.js"></script>
+		
+		<script src="js/nivoslider.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/form-validation.js"></script>
+		
+		
+		<script type="text/javascript">
+			var map;
+			$(document).ready(function(){
+				map = new GMaps({
+					div: '#map',
+					zoom: 5,
+					lat: 55.824365,
+					lng: 49.201605
+				});
+				map.addMarker({
+					lat: 55.824365,
+					lng: 49.201605
+				});
+		    });
+		  </script>
+	
+		<!-- ENDS JS -->
+	</body>
+</html>
