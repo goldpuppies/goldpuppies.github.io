@@ -208,6 +208,12 @@ px      68    160    252    */
     width: 252px;
     margin: 0 auto 30px auto;
   }
+  /* MOBILE TELEPHONE ----------------------------------------------------*/
+  #telephone {
+    float: none;
+    width: 120px;
+    margin: 0 140px 30px auto;
+  }
   /* MOBILE SLIDER ----------------------------------------------------*/
   .slider-wrapper {
     margin: 30px auto 0px auto;
